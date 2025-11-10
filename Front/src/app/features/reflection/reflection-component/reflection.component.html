@@ -11,8 +11,10 @@
     <div>No hay nombres para mostrar.</div>
     }
 
-    @if(error() == null ){
-    Error: {{ error() }}
+    @if(error() != null ){
+    <div>
+        Error: {{ error() }}
+    </div>
     }
 
     @if(names().length > 0 ){
