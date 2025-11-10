@@ -1,0 +1,26 @@
+<div class="reflection-page">
+    <h2>Reflection</h2>
+
+    <button (click)="getNames()" [disabled]="loading()">Traer nombres</button>
+
+    @if(loading()){
+    <div>Cargando...</div>
+    }
+
+    @if(names().length === 0 && !loading() && error() == null){
+    <div>No hay nombres para mostrar.</div>
+    }
+
+    @if(error() == null ){
+    Error: {{ error() }}
+    }
+
+    @if(names().length > 0 ){
+    <h3>Nombres importados:</h3>
+    <ul>
+        @for(n of names(); track n){
+        <li>{{ n }}</li>
+        }
+    </ul>
+    }
+</div>

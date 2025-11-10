@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIServiceFactory", "APISer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleImporter", "ExampleImporter\ExampleImporter.csproj", "{E8BAEC72-F358-4196-A324-B7D34CE82FAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{54F0DCA1-F536-440B-83B1-F2A23FD98AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBusinessLogic", "IBusinessLogic\IBusinessLogic.csproj", "{7E7578C9-9516-4BF7-B8DA-7DC3ACE08BB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{E8BAEC72-F358-4196-A324-B7D34CE82FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8BAEC72-F358-4196-A324-B7D34CE82FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8BAEC72-F358-4196-A324-B7D34CE82FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F0DCA1-F536-440B-83B1-F2A23FD98AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F0DCA1-F536-440B-83B1-F2A23FD98AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F0DCA1-F536-440B-83B1-F2A23FD98AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F0DCA1-F536-440B-83B1-F2A23FD98AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7578C9-9516-4BF7-B8DA-7DC3ACE08BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7578C9-9516-4BF7-B8DA-7DC3ACE08BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7578C9-9516-4BF7-B8DA-7DC3ACE08BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7578C9-9516-4BF7-B8DA-7DC3ACE08BB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
