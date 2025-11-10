@@ -21,7 +21,7 @@ export class ReflectionService {
   getNames() {
     this.isLoadingNames.set(true);
     
-    const url = `${environment.apiBaseUrl}/api/Reflection/importers`;
+    const url = `${environment.apiBaseUrl}/Reflection/importers`;
 
     this.http.get<string[]>(url).subscribe({
       next: (response) => {
