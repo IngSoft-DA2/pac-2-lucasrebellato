@@ -8,7 +8,7 @@ namespace BusinessLogic.Helpers
         public static List<string> GetImporters()
         {
             var importers = new List<string>();
-            var importersPath = Path.Combine(AppContext.BaseDirectory, "reflection");
+            var importersPath = Path.Combine(Directory.GetCurrentDirectory(), "reflection");
 
             if (!Directory.Exists(importersPath))
             {
