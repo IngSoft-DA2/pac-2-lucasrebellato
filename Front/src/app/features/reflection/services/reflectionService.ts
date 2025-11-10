@@ -29,7 +29,7 @@ export class ReflectionService {
         this.isLoadingNames.set(false);
       },
       error: (error) => {
-        this.errorGettingNames.set('Error fetching names');
+        this.errorGettingNames.set('Error obteniendo nombres');
         this.isLoadingNames.set(false);
       },
     });
